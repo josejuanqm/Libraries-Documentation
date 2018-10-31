@@ -1,6 +1,593 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 10,
+      "symbol": "VersaPlayerPlaybackError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 11,
+      "symbol": "VersaPlayerPlaybackError.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 12,
+      "symbol": "VersaPlayerPlaybackError.notFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 13,
+      "symbol": "VersaPlayerPlaybackError.unauthorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 14,
+      "symbol": "VersaPlayerPlaybackError.authenticationError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 15,
+      "symbol": "VersaPlayerPlaybackError.forbidden",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 16,
+      "symbol": "VersaPlayerPlaybackError.unavailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 17,
+      "symbol": "VersaPlayerPlaybackError.mediaFileError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 18,
+      "symbol": "VersaPlayerPlaybackError.bandwidthExceeded",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 19,
+      "symbol": "VersaPlayerPlaybackError.playlistUnchanged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 20,
+      "symbol": "VersaPlayerPlaybackError.wrongHostIP",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 21,
+      "symbol": "VersaPlayerPlaybackError.wrongHostDNS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 22,
+      "symbol": "VersaPlayerPlaybackError.badURL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Enums/VersaPlayerPlaybackError.swift",
+      "line": 23,
+      "symbol": "VersaPlayerPlaybackError.invalidRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": null,
+      "symbol": "VersaPlayer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 11,
+      "symbol": "VersaPlayer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 18,
+      "symbol": "VersaPlayer.VPlayerNotificationInfoKey.time",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 23,
+      "symbol": "VersaPlayer.VPlayerNotificationName.assetLoaded",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 24,
+      "symbol": "VersaPlayer.VPlayerNotificationName.timeChanged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 25,
+      "symbol": "VersaPlayer.VPlayerNotificationName.willPlay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 26,
+      "symbol": "VersaPlayer.VPlayerNotificationName.play",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 27,
+      "symbol": "VersaPlayer.VPlayerNotificationName.pause",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 28,
+      "symbol": "VersaPlayer.VPlayerNotificationName.buffering",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 29,
+      "symbol": "VersaPlayer.VPlayerNotificationName.endBuffering",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 30,
+      "symbol": "VersaPlayer.VPlayerNotificationName.didEnd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayer.swift",
+      "line": 226,
+      "symbol": "VersaPlayer.resourceLoader(_:shouldWaitForLoadingOfRequestedResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerCaptionStyling.swift",
+      "line": 11,
+      "symbol": "VersaPlayerCaptionStyling",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerItem.swift",
+      "line": 11,
+      "symbol": "VersaPlayerItem",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerItem.swift",
+      "line": 16,
+      "symbol": "VersaPlayerItem.audioTracks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerItem.swift",
+      "line": 20,
+      "symbol": "VersaPlayerItem.videoTracks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerItem.swift",
+      "line": 24,
+      "symbol": "VersaPlayerItem.captionTracks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 11,
+      "symbol": "VersaPlayerMediaTrack",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 12,
+      "symbol": "VersaPlayerMediaTrack.option",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 13,
+      "symbol": "VersaPlayerMediaTrack.group",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 14,
+      "symbol": "VersaPlayerMediaTrack.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 15,
+      "symbol": "VersaPlayerMediaTrack.language",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Player/VersaPlayerMediaTrack.swift",
+      "line": 17,
+      "symbol": "VersaPlayerMediaTrack.select(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerDecryptionDelegate.swift",
+      "line": 10,
+      "symbol": "VersaPlayerDecryptionDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerDecryptionDelegate.swift",
+      "line": 11,
+      "symbol": "VersaPlayerDecryptionDelegate.urlFor(player:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerDecryptionDelegate.swift",
+      "line": 12,
+      "symbol": "VersaPlayerDecryptionDelegate.contentIdFor(player:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerDecryptionDelegate.swift",
+      "line": 13,
+      "symbol": "VersaPlayerDecryptionDelegate.contentKeyContextURLFor(player:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerExtension.swift",
+      "line": 11,
+      "symbol": "VersaPlayerExtension",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerExtension.swift",
+      "line": 16,
+      "symbol": "VersaPlayerExtension.init(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Protocols/VersaPlayerPlaybackDelegate.swift",
+      "line": 12,
+      "symbol": "VersaPlayerPlaybackDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 12,
+      "symbol": "VersaPlayerLayer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 20,
+      "symbol": "VersaPlayerLayer.init(layer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 24,
+      "symbol": "VersaPlayerLayer.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 28,
+      "symbol": "VersaPlayerLayer.init(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 38,
+      "symbol": "VersaPlayerLayer.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerLayer.swift",
+      "line": 42,
+      "symbol": "VersaPlayerLayer.layoutSublayers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerRenderingView.swift",
+      "line": 12,
+      "symbol": "VersaPlayerRenderingView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerRenderingView.swift",
+      "line": 29,
+      "symbol": "VersaPlayerRenderingView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/Core/Rendering/VersaPlayerRenderingView.swift",
+      "line": 33,
+      "symbol": "VersaPlayerRenderingView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaSeekbarSlider.swift",
+      "line": 12,
+      "symbol": "VersaSeekbarSlider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaSeekbarSlider.swift",
+      "line": 14,
+      "symbol": "VersaSeekbarSlider.thumbImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaStatefulButton.swift",
+      "line": 12,
+      "symbol": "VersaStatefulButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaStatefulButton.swift",
+      "line": 14,
+      "symbol": "VersaStatefulButton.activeImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaStatefulButton.swift",
+      "line": 15,
+      "symbol": "VersaStatefulButton.inactiveImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaStatefulButton.swift",
+      "line": 21,
+      "symbol": "VersaStatefulButton.set(active:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaTimeLabel.swift",
+      "line": 11,
+      "symbol": "VersaTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaTimeLabel.swift",
+      "line": 13,
+      "symbol": "VersaTimeLabel.timeFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Controls/VersaTimeLabel.swift",
+      "line": 15,
+      "symbol": "VersaTimeLabel.update(toTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerControlsBehaviour.swift",
+      "line": 12,
+      "symbol": "VersaPlayerControlsBehaviour",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 11,
+      "symbol": "VersaPlayerGestureRecieverView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 34,
+      "symbol": "VersaPlayerGestureRecieverView.didMoveToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 71,
+      "symbol": "VersaPlayerGestureRecieverView.tapHandler(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 75,
+      "symbol": "VersaPlayerGestureRecieverView.doubleTapHandler(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 79,
+      "symbol": "VersaPlayerGestureRecieverView.pinchHandler(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverView.swift",
+      "line": 85,
+      "symbol": "VersaPlayerGestureRecieverView.panHandler(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/Core/VersaPlayerGestureRecieverViewDelegate.swift",
+      "line": 12,
+      "symbol": "VersaPlayerGestureRecieverViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControls.swift",
+      "line": 13,
+      "symbol": "VersaPlayerControls",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControls.swift",
+      "line": 72,
+      "symbol": "VersaPlayerControls.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControls.swift",
+      "line": 76,
+      "symbol": "VersaPlayerControls.didMoveToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControlsCoordinator.swift",
+      "line": 13,
+      "symbol": "VersaPlayerControlsCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControlsCoordinator.swift",
+      "line": 24,
+      "symbol": "VersaPlayerControlsCoordinator.didMoveToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerControls/VersaPlayerControlsCoordinator.swift",
+      "line": 41,
+      "symbol": "VersaPlayerControlsCoordinator.layout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": null,
+      "symbol": "VersaPlayerView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 14,
+      "symbol": "VersaPlayerView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 65,
+      "symbol": "VersaPlayerView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 70,
+      "symbol": "VersaPlayerView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 190,
+      "symbol": "VersaPlayerView.pictureInPictureControllerDidStopPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 194,
+      "symbol": "VersaPlayerView.pictureInPictureControllerDidStartPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 198,
+      "symbol": "VersaPlayerView.pictureInPictureControllerWillStopPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject/Lib/VersaPlayerView.swift",
+      "line": 203,
+      "symbol": "VersaPlayerView.pictureInPictureControllerWillStartPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
   ],
-  "source_directory": "/Users/josequintero/source/qsr/VP/VersaPlayer/Example"
+  "source_directory": "/Users/josequintero/source/qsr/VP/VersaPlayeriOSDocProject"
 }

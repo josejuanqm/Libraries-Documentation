@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>VersaTimeLabel Class Reference</title>
+    <title>VersaPlayerItem Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/VersaTimeLabel" class="dashAnchor"></a>
-    <a title="VersaTimeLabel Class Reference"></a>
+    <a name="//apple_ref/swift/Class/VersaPlayerItem" class="dashAnchor"></a>
+    <a title="VersaPlayerItem Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (62% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        VersaTimeLabel Class Reference
+        VersaPlayerItem Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -115,10 +115,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>VersaTimeLabel</h1>
+            <h1>VersaPlayerItem</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">VersaTimeLabel</span> <span class="p">:</span> <span class="kt">UILabel</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">VersaPlayerItem</span> <span class="p">:</span> <span class="kt">AVPlayerItem</span></code></pre>
 
                 </div>
               </div>
@@ -131,9 +131,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A9TimeLabelC10timeFormatSSvp"></a>
-                    <a name="//apple_ref/swift/Property/timeFormat" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A9TimeLabelC10timeFormatSSvp">timeFormat</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerItemC11isEncryptedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isEncrypted" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerItemC11isEncryptedSbvp">isEncrypted</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -141,14 +141,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>whether content passed through the asset is encrypted and should be decrypted</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">timeFormat</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEncrypted</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -158,9 +158,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A9TimeLabelC6update02toE0ySd_tF"></a>
-                    <a name="//apple_ref/swift/Method/update(toTime:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A9TimeLabelC6update02toE0ySd_tF">update(toTime:)</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerItemC11audioTracksSayAA0aE10MediaTrackVGvp"></a>
+                    <a name="//apple_ref/swift/Property/audioTracks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerItemC11audioTracksSayAA0aE10MediaTrackVGvp">audioTracks</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -175,7 +175,61 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">toTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">audioTracks</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/VersaPlayerMediaTrack.html">VersaPlayerMediaTrack</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerItemC11videoTracksSayAA0aE10MediaTrackVGvp"></a>
+                    <a name="//apple_ref/swift/Property/videoTracks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerItemC11videoTracksSayAA0aE10MediaTrackVGvp">videoTracks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">videoTracks</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/VersaPlayerMediaTrack.html">VersaPlayerMediaTrack</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerItemC13captionTracksSayAA0aE10MediaTrackVGvp"></a>
+                    <a name="//apple_ref/swift/Property/captionTracks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerItemC13captionTracksSayAA0aE10MediaTrackVGvp">captionTracks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">captionTracks</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/VersaPlayerMediaTrack.html">VersaPlayerMediaTrack</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>

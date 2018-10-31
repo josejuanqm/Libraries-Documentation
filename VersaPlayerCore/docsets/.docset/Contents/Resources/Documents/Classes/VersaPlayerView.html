@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>VersaPlayerControls Class Reference</title>
+    <title>VersaPlayerView Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/VersaPlayerControls" class="dashAnchor"></a>
-    <a title="VersaPlayerControls Class Reference"></a>
+    <a name="//apple_ref/swift/Class/VersaPlayerView" class="dashAnchor"></a>
+    <a title="VersaPlayerView Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (62% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        VersaPlayerControls Class Reference
+        VersaPlayerView Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -115,10 +115,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>VersaPlayerControls</h1>
+            <h1>VersaPlayerView</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">VersaPlayerControls</span> <span class="p">:</span> <span class="kt">UIView</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">VersaPlayerView</span> <span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">AVPictureInPictureControllerDelegate</span></code></pre>
 
                 </div>
               </div>
@@ -131,9 +131,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC7handlerAA0aE4ViewCSgvp"></a>
-                    <a name="//apple_ref/swift/Property/handler" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC7handlerAA0aE4ViewCSgvp">handler</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC10extensionsSDySSAA0aE9ExtensionCGvp"></a>
+                    <a name="//apple_ref/swift/Property/extensions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC10extensionsSDySSAA0aE9ExtensionCGvp">extensions</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -141,14 +141,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaPlayer intance being controlled</p>
+                        <p>VersaPlayer extension dictionary</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">handler</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerView.html">VersaPlayerView</a></span><span class="o">!</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">extensions</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerExtension.html">VersaPlayerExtension</a></span><span class="p">]</span></code></pre>
 
                         </div>
                       </div>
@@ -158,9 +158,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC9behaviourAA0aeF9BehaviourCSgvp"></a>
-                    <a name="//apple_ref/swift/Property/behaviour" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC9behaviourAA0aeF9BehaviourCSgvp">behaviour</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC6playerAA0aE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/player" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC6playerAA0aE0CSgvp">player</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -168,14 +168,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaPlayerControlsBehaviour being used to validate ui</p>
+                        <p>AVPlayer used in VersaPlayer implementation</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">behaviour</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerControlsBehaviour.html">VersaPlayerControlsBehaviour</a></span><span class="o">!</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">player</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayer.html">VersaPlayer</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -185,9 +185,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC19controlsCoordinatorAA0aefH0CSgvp"></a>
-                    <a name="//apple_ref/swift/Property/controlsCoordinator" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC19controlsCoordinatorAA0aefH0CSgvp">controlsCoordinator</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC09renderingF0AA0ae9RenderingF0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/renderingView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC09renderingF0AA0ae9RenderingF0CSgvp">renderingView</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -195,14 +195,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaPlayerControlsCoordinator instance</p>
+                        <p>VPlayerRenderingView instance</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">controlsCoordinator</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerControlsCoordinator.html">VersaPlayerControlsCoordinator</a></span><span class="o">!</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">renderingView</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerRenderingView.html">VersaPlayerRenderingView</a></span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -212,9 +212,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)playPauseButton"></a>
-                    <a name="//apple_ref/swift/Property/playPauseButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)playPauseButton">playPauseButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC16playbackDelegateAA0ae8PlaybackH0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/playbackDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC16playbackDelegateAA0ae8PlaybackH0_pSgvp">playbackDelegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -222,15 +222,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the play/pause button</p>
+                        <p>VersaPlayerPlaybackDelegate instance</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">playPauseButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">playbackDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/VersaPlayerPlaybackDelegate.html">VersaPlayerPlaybackDelegate</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -240,9 +239,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)fullscreenButton"></a>
-                    <a name="//apple_ref/swift/Property/fullscreenButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)fullscreenButton">fullscreenButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC18decryptionDelegateAA0ae10DecryptionH0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/decryptionDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC18decryptionDelegateAA0ae10DecryptionH0_pSgvp">decryptionDelegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -250,15 +249,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the fullscreen toggle button</p>
+                        <p>VersaPlayerDecryptionDelegate instance to be used only when a VPlayer item with isEncrypted = true is passed</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">fullscreenButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">decryptionDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/VersaPlayerDecryptionDelegate.html">VersaPlayerDecryptionDelegate</a></span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -268,9 +266,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)pipButton"></a>
-                    <a name="//apple_ref/swift/Property/pipButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)pipButton">pipButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC13pipControllerSo018AVPictureInPictureH0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pipController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC13pipControllerSo018AVPictureInPictureH0CSgvp">pipController</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -278,15 +276,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the PIP button</p>
+                        <p>AVPictureInPictureController instance</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">pipButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">pipController</span><span class="p">:</span> <span class="kt">AVPictureInPictureController</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -296,9 +293,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)rewindButton"></a>
-                    <a name="//apple_ref/swift/Property/rewindButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)rewindButton">rewindButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC5readySbvp"></a>
+                    <a name="//apple_ref/swift/Property/ready" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC5readySbvp">ready</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -306,15 +303,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the rewind button</p>
+                        <p>Whether player is prepared</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">rewindButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ready</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -324,9 +320,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)forwardButton"></a>
-                    <a name="//apple_ref/swift/Property/forwardButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)forwardButton">forwardButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC8autoplaySbvp"></a>
+                    <a name="//apple_ref/swift/Property/autoplay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC8autoplaySbvp">autoplay</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -334,15 +330,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the forward button</p>
+                        <p>Whether it should autoplay when adding a VPlayerItem</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">forwardButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">autoplay</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -352,9 +347,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)skipForwardButton"></a>
-                    <a name="//apple_ref/swift/Property/skipForwardButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)skipForwardButton">skipForwardButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC9isPlayingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isPlaying" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC9isPlayingSbvp">isPlaying</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -362,15 +357,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the skip forward button</p>
+                        <p>Whether Player is currently playing</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">skipForwardButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isPlaying</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -380,9 +374,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)skipBackwardButton"></a>
-                    <a name="//apple_ref/swift/Property/skipBackwardButton" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)skipBackwardButton">skipBackwardButton</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC9isSeekingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isSeeking" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC9isSeekingSbvp">isSeeking</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -390,15 +384,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaStatefulButton instance to represent the skip backward button</p>
+                        <p>Whether Player is seeking time</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">skipBackwardButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaStatefulButton.html">VersaStatefulButton</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isSeeking</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -408,9 +401,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)seekbarSlider"></a>
-                    <a name="//apple_ref/swift/Property/seekbarSlider" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)seekbarSlider">seekbarSlider</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC23isFullscreenModeEnabledSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isFullscreenModeEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC23isFullscreenModeEnabledSbvp">isFullscreenModeEnabled</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -418,15 +411,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaSeekbarSlider instance to represent the seekbar slider</p>
+                        <p>Whether Player is presented in Fullscreen</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">seekbarSlider</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaSeekbarSlider.html">VersaSeekbarSlider</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFullscreenModeEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -436,9 +428,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)currentTimeLabel"></a>
-                    <a name="//apple_ref/swift/Property/currentTimeLabel" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)currentTimeLabel">currentTimeLabel</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC16isPipModeEnabledSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isPipModeEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC16isPipModeEnabledSbvp">isPipModeEnabled</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -446,15 +438,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaTimeLabel instance to represent the current time label</p>
+                        <p>Whether PIP Mode is enabled via pipController</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">currentTimeLabel</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaTimeLabel.html">VersaTimeLabel</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isPipModeEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -464,9 +455,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)totalTimeLabel"></a>
-                    <a name="//apple_ref/swift/Property/totalTimeLabel" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)totalTimeLabel">totalTimeLabel</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC12isForwardingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isForwarding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC12isForwardingSbvp">isForwarding</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -474,15 +465,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>VersaTimeLabel instance to represent the total time label</p>
+                        <p>Whether Player is Fast Forwarding</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">totalTimeLabel</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaTimeLabel.html">VersaTimeLabel</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isForwarding</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -492,9 +482,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)bufferingView"></a>
-                    <a name="//apple_ref/swift/Property/bufferingView" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(py)bufferingView">bufferingView</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC11isRewindingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isRewinding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC11isRewindingSbvp">isRewinding</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -502,15 +492,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>UIView to be shown when buffering</p>
+                        <p>Whether Player is Rewinding</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
-<span class="kd">public</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">bufferingView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isRewinding</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -520,36 +509,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC8skipSizeSdvp"></a>
-                    <a name="//apple_ref/swift/Property/skipSize" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC8skipSizeSdvp">skipSize</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Skip size in seconds to be used for skipping forward or backwards</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">skipSize</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)touchesBegan:withEvent:"></a>
-                    <a name="//apple_ref/swift/Method/touchesBegan(_:with:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)touchesBegan:withEvent:">touchesBegan(_:with:)</a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)initWithFrame:"></a>
+                    <a name="//apple_ref/swift/Method/init(frame:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)initWithFrame:">init(frame:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -564,7 +526,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">touchesBegan</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -574,9 +536,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)didMoveToSuperview"></a>
-                    <a name="//apple_ref/swift/Method/didMoveToSuperview()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)didMoveToSuperview">didMoveToSuperview()</a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)initWithCoder:">init(coder:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -591,7 +553,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">didMoveToSuperview</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -601,9 +563,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13timeDidChange6toTimeySo6CMTimea_tF"></a>
-                    <a name="//apple_ref/swift/Method/timeDidChange(toTime:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13timeDidChange6toTimeySo6CMTimea_tF">timeDidChange(toTime:)</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC12addExtension9extension4withyAA0aeH0C_SStF"></a>
+                    <a name="//apple_ref/swift/Method/addExtension(extension:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC12addExtension9extension4withyAA0aeH0C_SStF">addExtension(extension:with:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -611,14 +573,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Notifies when time changes</p>
+                        <p>Add a VersaPlayerExtension instance to the current player</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">timeDidChange</span><span class="p">(</span><span class="n">toTime</span> <span class="nv">time</span><span class="p">:</span> <span class="kt">CMTime</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">addExtension</span><span class="p">(</span><span class="kd">extension</span> <span class="nv">ext</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerExtension.html">VersaPlayerExtension</a></span><span class="p">,</span> <span class="n">with</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -629,12 +591,24 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>time</em>
+                                <em>ext</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>CMTime representation of the current playback time</p>
+                                  <p>The instance of the extension.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the extension.</p>
                                 </div>
                               </td>
                             </tr>
@@ -647,9 +621,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC010removeFromE0yyF"></a>
-                    <a name="//apple_ref/swift/Method/removeFromPlayer()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC010removeFromE0yyF">removeFromPlayer()</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC12getExtension4withAA0aeH0CSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/getExtension(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC12getExtension4withAA0aeH0CSgSS_tF">getExtension(with:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -657,16 +631,35 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Remove coordinator from player</p>
+                        <p>Retrieves the instance of the VersaPlayerExtension with the name given</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">removeFromPlayer</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">getExtension</span><span class="p">(</span><span class="n">with</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/VersaPlayerExtension.html">VersaPlayerExtension</a></span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the extension.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -674,9 +667,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC7prepareyyF"></a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC7prepareyyF"></a>
                     <a name="//apple_ref/swift/Method/prepare()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC7prepareyyF">prepare()</a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC7prepareyyF">prepare()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -684,7 +677,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Prepare controls targets and notification listeners</p>
+                        <p>Prepares the player to play</p>
 
                       </div>
                       <div class="declaration">
@@ -701,9 +694,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC6layoutyyF"></a>
-                    <a name="//apple_ref/swift/Method/layout()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC6layoutyyF">layout()</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC6layout4view4intoySo6UIViewC_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/layout(view:into:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC6layout4view4intoySo6UIViewC_AHtF">layout(view:into:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -711,262 +704,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Layout in parent view</p>
+                        <p>Layout a view within another view stretching to edges</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">layout</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC27prepareNotificationListeneryyF"></a>
-                    <a name="//apple_ref/swift/Method/prepareNotificationListener()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC27prepareNotificationListeneryyF">prepareNotificationListener()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Prepares the notification observers/listeners</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">prepareNotificationListener</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC14prepareSeekbaryyF"></a>
-                    <a name="//apple_ref/swift/Method/prepareSeekbar()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC14prepareSeekbaryyF">prepareSeekbar()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Prepare the seekbar values</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">prepareSeekbar</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13showBufferingyyF"></a>
-                    <a name="//apple_ref/swift/Method/showBuffering()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13showBufferingyyF">showBuffering()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Show buffering view</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showBuffering</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13hideBufferingyyF"></a>
-                    <a name="//apple_ref/swift/Method/hideBuffering()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A14PlayerControlsC13hideBufferingyyF">hideBuffering()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Hide buffering view</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideBuffering</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)skipForward"></a>
-                    <a name="//apple_ref/swift/Method/skipForward()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)skipForward">skipForward()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Skip forward (n) seconds in time</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">skipForward</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)skipBackward"></a>
-                    <a name="//apple_ref/swift/Method/skipBackward()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)skipBackward">skipBackward()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Skip backward (n) seconds in time</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">skipBackward</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)seekingEnd"></a>
-                    <a name="//apple_ref/swift/Method/seekingEnd()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)seekingEnd">seekingEnd()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>End seeking</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">seekingEnd</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)seekingStart"></a>
-                    <a name="//apple_ref/swift/Method/seekingStart()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)seekingStart">seekingStart()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Start Seeking</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">seekingStart</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)playheadChangedWith:"></a>
-                    <a name="//apple_ref/swift/Method/playheadChanged(with:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)playheadChangedWith:">playheadChanged(with:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Playhead changed in UISlider</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">playheadChanged</span><span class="p">(</span><span class="n">with</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UISlider</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">layout</span><span class="p">(</span><span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">into</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -977,12 +722,24 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>sender</em>
+                                <em>view</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>UISlider that updated</p>
+                                  <p>The view to layout.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>into</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The container view.</p>
                                 </div>
                               </td>
                             </tr>
@@ -995,9 +752,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)togglePip"></a>
-                    <a name="//apple_ref/swift/Method/togglePip()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)togglePip">togglePip()</a>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC12setNativePip7enabledySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/setNativePip(enabled:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC12setNativePip7enabledySb_tF">setNativePip(enabled:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1005,7 +762,145 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Toggle PIP mode</p>
+                        <p>Enables or disables PIP when available (when device is supported)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setNativePip</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enabled</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not to enable</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC13setFullscreen7enabledySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/setFullscreen(enabled:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC13setFullscreen7enabledySb_tF">setFullscreen(enabled:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enables or disables fullscreen</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setFullscreen</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enabled</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether or not to enable</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC3set4itemyAA0aE4ItemCSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/set(item:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC3set4itemyAA0aE4ItemCSg_tF">set(item:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the item to be played</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerItem.html">VersaPlayerItem</a></span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>item</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The VPlayerItem instance to add to player.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)play"></a>
+                    <a name="//apple_ref/swift/Method/play()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)play">play()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Play</p>
 
                       </div>
                       <div class="declaration">
@@ -1013,7 +908,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">togglePip</span><span class="p">()</span></code></pre>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">play</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -1023,9 +918,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)toggleFullscreen"></a>
-                    <a name="//apple_ref/swift/Method/toggleFullscreen()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)toggleFullscreen">toggleFullscreen()</a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pause"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pause">pause()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1033,7 +928,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Toggle fullscreen mode</p>
+                        <p>Pause</p>
 
                       </div>
                       <div class="declaration">
@@ -1041,7 +936,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">toggleFullscreen</span><span class="p">()</span></code></pre>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -1051,9 +946,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)togglePlayback"></a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)togglePlayback"></a>
                     <a name="//apple_ref/swift/Method/togglePlayback()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)togglePlayback">togglePlayback()</a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)togglePlayback">togglePlayback()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1061,7 +956,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Toggle playback</p>
+                        <p>Toggle Playback</p>
 
                       </div>
                       <div class="declaration">
@@ -1079,9 +974,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)rewindToggle"></a>
-                    <a name="//apple_ref/swift/Method/rewindToggle()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)rewindToggle">rewindToggle()</a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerDidStopPictureInPicture:"></a>
+                    <a name="//apple_ref/swift/Method/pictureInPictureControllerDidStopPictureInPicture(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerDidStopPictureInPicture:">pictureInPictureControllerDidStopPictureInPicture(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1089,15 +984,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Toggle rewind</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">rewindToggle</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pictureInPictureControllerDidStopPictureInPicture</span><span class="p">(</span><span class="n">_</span> <span class="nv">pictureInPictureController</span><span class="p">:</span> <span class="kt">AVPictureInPictureController</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1107,9 +1001,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)forwardToggle"></a>
-                    <a name="//apple_ref/swift/Method/forwardToggle()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerControls(im)forwardToggle">forwardToggle()</a>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerDidStartPictureInPicture:"></a>
+                    <a name="//apple_ref/swift/Method/pictureInPictureControllerDidStartPictureInPicture(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerDidStartPictureInPicture:">pictureInPictureControllerDidStartPictureInPicture(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1117,17 +1011,206 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Forward toggle</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
-<span class="kd">open</span> <span class="kd">func</span> <span class="nf">forwardToggle</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pictureInPictureControllerDidStartPictureInPicture</span><span class="p">(</span><span class="n">_</span> <span class="nv">pictureInPictureController</span><span class="p">:</span> <span class="kt">AVPictureInPictureController</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerWillStopPictureInPicture:"></a>
+                    <a name="//apple_ref/swift/Method/pictureInPictureControllerWillStopPictureInPicture(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerWillStopPictureInPicture:">pictureInPictureControllerWillStopPictureInPicture(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pictureInPictureControllerWillStopPictureInPicture</span><span class="p">(</span><span class="n">_</span> <span class="nv">pictureInPictureController</span><span class="p">:</span> <span class="kt">AVPictureInPictureController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerWillStartPictureInPicture:"></a>
+                    <a name="//apple_ref/swift/Method/pictureInPictureControllerWillStartPictureInPicture(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@VersaPlayeriOSDocProject@objc(cs)VersaPlayerView(im)pictureInPictureControllerWillStartPictureInPicture:">pictureInPictureControllerWillStartPictureInPicture(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pictureInPictureControllerWillStartPictureInPicture</span><span class="p">(</span><span class="n">_</span> <span class="nv">pictureInPictureController</span><span class="p">:</span> <span class="kt">AVPictureInPictureController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC8controlsAA0aE8ControlsCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/controls" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC8controlsAA0aE8ControlsCSgvp">controls</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>VersaPlayerControls instance being used to display controls</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">controls</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerControls.html">VersaPlayerControls</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC3use8controls4withyAA0aE8ControlsC_AA0ae15GestureRecieverF0CSgtF"></a>
+                    <a name="//apple_ref/swift/Method/use(controls:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC3use8controls4withyAA0aE8ControlsC_AA0ae15GestureRecieverF0CSgtF">use(controls:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>VersaPlayerControls instance to display controls in player, using VersaPlayerGestureRecieverView instance
+to handle gestures</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">use</span><span class="p">(</span><span class="nv">controls</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerControls.html">VersaPlayerControls</a></span><span class="p">,</span> <span class="n">with</span> <span class="nv">gestureReciever</span><span class="p">:</span> <span class="kt"><a href="../Classes/VersaPlayerGestureRecieverView.html">VersaPlayerGestureRecieverView</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>controls</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>VersaPlayerControls instance used to display controls</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gestureReciever</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Optional gesture reciever view to be used to recieve gestures</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:24VersaPlayeriOSDocProject0A10PlayerViewC14updateControls6toTimeySo6CMTimea_tF"></a>
+                    <a name="//apple_ref/swift/Method/updateControls(toTime:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:24VersaPlayeriOSDocProject0A10PlayerViewC14updateControls6toTimeySo6CMTimea_tF">updateControls(toTime:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update controls to specified time</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateControls</span><span class="p">(</span><span class="n">toTime</span> <span class="nv">time</span><span class="p">:</span> <span class="kt">CMTime</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>time</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Time to be updated to</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
